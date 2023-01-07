@@ -55,12 +55,4 @@ local variants = {
 	},
 }
 
-local palette = {}
-
-if vim.o.background == 'light' then
-	palette = variants.dawn
-else
-	palette = variants[(vim.g.rose_pine_variant == 'moon' and 'moon') or 'main']
-end
-
-return palette
+return variants.dawn
