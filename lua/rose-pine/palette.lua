@@ -36,7 +36,7 @@ local variants = {
 		none = 'NONE',
 	},
 	dawn = {
-		base = '#faf4ed',
+		base = '#fcfdfe',
 		surface = '#fffaf3',
 		overlay = '#f2e9e1',
 		muted = '#9893a5',
